@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     
     var btn:UIButton!
+    var btnLogin:UIButton!
     
     
     override func viewDidLoad() {

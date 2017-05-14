@@ -12,7 +12,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UITableViewDataSourc
 
     var scroolView:UIScrollView = UIScrollView()
     var btn:UIButton!
-    var btnLogin:UIButton!
+    
    @IBOutlet var tableview:UITableView!
     
    // var collectionView = UICollectionView()

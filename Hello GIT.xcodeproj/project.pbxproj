@@ -14,6 +14,7 @@
 		4B2F5EC01E6C3A0B0044204B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F5EBE1E6C3A0B0044204B /* LaunchScreen.storyboard */; };
 		4B2F5ECB1E6C3A0B0044204B /* Hello_GITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F5ECA1E6C3A0B0044204B /* Hello_GITTests.swift */; };
 		4B2F5ED61E6C3A0B0044204B /* Hello_GITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F5ED51E6C3A0B0044204B /* Hello_GITUITests.swift */; };
+		4BD04B0E1EA2BDC500730572 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD04B0D1EA2BDC500730572 /* dataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B2F5ED11E6C3A0B0044204B /* Hello GITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello GITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2F5ED51E6C3A0B0044204B /* Hello_GITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_GITUITests.swift; sourceTree = "<group>"; };
 		4B2F5ED71E6C3A0C0044204B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD04B0D1EA2BDC500730572 /* dataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4B2F5EA91E6C3A0A0044204B = {
 			isa = PBXGroup;
 			children = (
+				4BD04B0D1EA2BDC500730572 /* dataModel.swift */,
 				4B2F5EB41E6C3A0B0044204B /* Hello GIT */,
 				4B2F5EC91E6C3A0B0044204B /* Hello GITTests */,
 				4B2F5ED41E6C3A0B0044204B /* Hello GITUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				4B2F5EB81E6C3A0B0044204B /* ViewController.swift in Sources */,
 				4B2F5EB61E6C3A0B0044204B /* AppDelegate.swift in Sources */,
+				4BD04B0E1EA2BDC500730572 /* dataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				4B2F5EDC1E6C3A0C0044204B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B2F5EDD1E6C3A0C0044204B /* Build configuration list for PBXNativeTarget "Hello GITTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				4B2F5EDF1E6C3A0C0044204B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B2F5EE01E6C3A0C0044204B /* Build configuration list for PBXNativeTarget "Hello GITUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				4B2F5EE21E6C3A0C0044204B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

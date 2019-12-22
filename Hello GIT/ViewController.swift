@@ -21,6 +21,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UITableViewDataSourc
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("git change first")
+        print("git second commit")
         var carmodel:carModel = carModel()
         
         carmodel.modelNo = 1234

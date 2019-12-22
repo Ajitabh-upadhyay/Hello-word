@@ -20,7 +20,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UITableViewDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        print("git change first")
         var carmodel:carModel = carModel()
         
         carmodel.modelNo = 1234
